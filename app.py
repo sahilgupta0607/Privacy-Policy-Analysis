@@ -24,7 +24,7 @@ with st.sidebar:
     company = st.selectbox("Select a company", list(company_logos.keys()))
 
 # Main Page Title
-st.title(f"Privacy Policy Analysis for {company}")
+st.title(f"Privacy Policy Analysis of {company}")
 st.write('\n')
 
 # Dividing the main area into three columns
